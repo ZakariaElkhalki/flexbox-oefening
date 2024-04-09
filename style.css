@@ -1,0 +1,68 @@
+H1 {
+    display: flex;
+    justify-content: center;
+
+}
+
+H2 {
+    display: flex;
+    justify-content: center;
+
+}
+
+H3 {
+    display: flex;
+    justify-content: center;
+
+}
+
+p {
+    display: flex;
+    justify-content: center;
+
+}
+
+.collegas {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.collega {
+    background-color: beige;
+    border-radius: 10%;
+
+}
+
+.collega:nth-child(1) > img {
+    width: 23px;
+    height: 23px;
+    border-radius: 30%;
+    object-position: left center;
+
+}
+
+.collega:nth-child(2) > img {
+    width: 23px;
+    height: 23px;
+    border-radius: 30%;
+    object-position: center center;
+
+}
+
+.collega:nth-child(3) > img {
+    width: 23px;
+    height: 23px;
+    border-radius: 30%;
+    object-position: right center;
+
+}
+
+.collega img {
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10%;
+    margin-left:auto ;
+    margin-right:auto ;
+}
